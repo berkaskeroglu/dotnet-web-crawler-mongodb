@@ -34,7 +34,7 @@ string connectionString = "mongodb+srv://<user>:<password>@cluster0.x6b5uvi.mong
 dotnet restore
 ```
 
-##Usage
+## Usage
 ```bash
 dotnet run
 
@@ -50,7 +50,7 @@ Sample workflow:
 4. Collection name: example_com_crawl
 ```
 
-##ID System
+## ID System
 ```bash
 static int id = 1;
 static readonly object lockObj = new object();
@@ -60,7 +60,7 @@ int GetNextId() {
 }
 ```
 
-##Tree Display Logic
+## Tree Display Logic
 ```bash
 void DisplayTreeNode(BsonDocument node, int depth) {
     string indent = new string(' ', depth * 4);
